@@ -1,0 +1,104 @@
+/*-------  max-width 1024px  ------*/
+
+@media screen and (max-width:1024px) {
+
+  nav.navbar.bootsnav{
+    padding: 30px 0;
+  }
+
+  .fa-bars:before {
+    content: "\f0c9";
+    font-size: 25px;
+    color:#16b51c;
+  }
+
+  
+
+}
+
+/*-------  max-width 992px  ------*/
+@media (max-width: 992px){
+  nav.navbar.bootsnav .navbar-nav > li > a {
+  padding: 10px 0;
+  }
+
+  .artland-image {
+    position: relative;
+    display: none;
+  }
+
+  .artland .section-head{
+    display: inherit;
+  }
+  .section-head h2{
+    font-size: 40px;
+  }
+  .build-item{
+    flex-flow: column;
+  }
+  .build-text h2 {
+    font-size: 45px;
+  }
+
+}
+
+
+
+/*-------  max-width 767px  ------*/
+@media screen and (max-width:767px) {
+
+ 
+  .section-head h2{
+    font-size: 29px;
+  }
+
+
+  .build-item::before {
+    left: -5%;
+  }
+
+  .build-text h2 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .flaticon-home-icon-silhouette:before {
+    content: "\f100";
+    font-size: 84px;
+  }
+
+}
+
+
+
+
+
+
+
+
+/*-------  max-width 570px  ------*/
+@media screen and (max-width:1024px) {
+
+ 
+  .section-head h2{
+    font-size: 29px;
+  }
+
+}
+
+
+
+
+
+
+/*-------  max-width 480px  ------*/
+@media (max-width: 480px){
+  .chairman-image {
+    margin: 0 0px 20px 0;
+  }
+
+  .chairman-text::before {
+    top: 15%;
+  }
+
+}
